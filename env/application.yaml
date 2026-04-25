@@ -1,0 +1,14 @@
+server:
+  port: 8070
+  timeout_ms: 10000
+  base_path: /api/v1/product-aggregator
+provider:
+  a:
+    enabled: true
+    timeout_ms: 800
+  b:
+    enabled: true
+    timeout_ms: 800
+  c:
+    enabled: true
+    timeout_ms: 800

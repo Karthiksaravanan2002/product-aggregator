@@ -16,7 +16,7 @@ func main() {
 	logger.Init()
 	defer logger.Sync()
 
-	cfg, err := props.Load("../../env/application.yaml")
+	cfg, err := props.Load("env/application.yaml")
 	if err != nil {
 		logger.Log.Fatal("failed to load config", logger.Error(err))
 	}
